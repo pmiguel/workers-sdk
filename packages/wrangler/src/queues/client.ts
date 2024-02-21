@@ -15,6 +15,11 @@ export async function createQueue(
 
 export interface CreateQueueBody {
 	queue_name: string;
+	settings?: QueueSettings;
+}
+
+export interface QueueSettings {
+	delivery_delay?: number;
 }
 
 export interface ScriptReference {
@@ -41,6 +46,7 @@ export interface QueueResponse {
 	producers_total_count: number;
 	consumers: Consumer[];
 	consumers_total_count: number;
+	settings: QueueSettings;
 }
 
 export async function deleteQueue(
@@ -111,6 +117,7 @@ export interface ConsumerSettings {
 	max_retries?: number;
 	max_wait_time_ms?: number;
 	max_concurrency?: number | null;
+	retry_delay?: number
 }
 
 export interface ConsumerResponse extends PostConsumerBody {

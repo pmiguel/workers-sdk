@@ -103,8 +103,8 @@ describe("wrangler", () => {
 						consumers: [],
 						consumers_total_count: 0,
 						settings: {
-							delivery_delay: 0
-						}
+							delivery_delay: 0,
+						},
 					},
 					{
 						queue_id: "def19fa3787741579c9088eb850474af",
@@ -116,8 +116,8 @@ describe("wrangler", () => {
 						consumers: [],
 						consumers_total_count: 0,
 						settings: {
-							delivery_delay: 0
-						}
+							delivery_delay: 0,
+						},
 					},
 				];
 				const expectedPage = 1;
@@ -148,8 +148,8 @@ describe("wrangler", () => {
 						consumers: [],
 						consumers_total_count: 0,
 						settings: {
-							delivery_delay: 0
-						}
+							delivery_delay: 0,
+						},
 					},
 				];
 				const expectedPage = 2;

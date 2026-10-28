@@ -1,0 +1,21 @@
+packages/miniflare/src/workers/core/entry.worker.ts
+  s_cc68ea0ad3a333::t_b0059060a0c2b8 650-654
+packages/miniflare/test/plugins/r2/s3.spec.ts
+  s_cc68ea0ad3a333::t_344fbec0de49a0 2-3,210-310
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "d6312170633b885d32698082c571ea536861c2ba",
+  "prompts": {},
+  "sessions": {
+    "s_cc68ea0ad3a333": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a162f5-49ca-7b11-8787-faf147d85cb3",
+        "model": "unknown"
+      },
+      "human_author": "Pedro Leal <pleal@cloudflare.com>"
+    }
+  }
+}
